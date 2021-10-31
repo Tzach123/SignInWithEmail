@@ -1,0 +1,16 @@
+.button-container {
+  margin: 8px 0;
+}
+.button-container button {
+  width: 100%;
+  padding: 8px;
+  color: white;
+  background-color: var(--color-5);
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: var(--color-3);
+}

@@ -1,0 +1,23 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
+.input-container label {
+  cursor: pointer;
+}
+
+.input-container input {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+input:focus {
+  border-bottom: 2px solid var(--color-3);
+  outline-offset: 0px;
+  outline: none;
+}

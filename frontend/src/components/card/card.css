@@ -1,0 +1,23 @@
+.card {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 16px;
+  background-color: var(--color-1);
+  padding: 16px;
+}
+
+.card-header h1 {
+  color: var(--color-3);
+}
+
+.card-text-block {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid rgb(118 118 118);
+  margin: 16px 0;
+}
+
+.card-text-block span {
+  margin: 8px;
+}

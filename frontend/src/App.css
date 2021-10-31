@@ -1,0 +1,24 @@
+:root {
+  --color-1: #ffffff;
+  --color-2: #b0b1b4;
+  --color-3: #7bc3fe;
+  --color-4: #53aff9;
+  --color-5: #44aafe;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.card-screen {
+  min-height: calc(100vh - 32px);
+  width: 100%;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-2);
+  background-color: var(--color-4);
+}

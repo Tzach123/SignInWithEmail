@@ -1,0 +1,27 @@
+.spinner {
+  margin: auto;
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spinner-border 1s linear infinite;
+  animation: spinner-border 1s linear infinite;
+  color: black;
+  z-index: 201;
+}
+
+@-webkit-keyframes spinner-border {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner-border {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

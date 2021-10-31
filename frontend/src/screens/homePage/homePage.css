@@ -1,0 +1,11 @@
+body {
+  background-color: var(--color-3);
+}
+
+.home-page {
+  width: 80%;
+  min-width: 400px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 16px;
+}
